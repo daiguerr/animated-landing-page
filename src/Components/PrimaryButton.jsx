@@ -19,6 +19,12 @@ border-radius: 20px;
 outline:none;
 border:none;
 cursor:pointer;
+@media screen and (max-width: 700px){
+                width: 45%;
+                font-size: 85%;
+                margin-left:100px;
+                padding:10px;
+            }
 `;
 
 export default PrimaryButton

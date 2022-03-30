@@ -26,6 +26,9 @@ justify-content: space-between;
 img{
     padding-left: .8rem;
 }
+@media screen and (max-width: 700px){
+                font-size:85%;
+            }
 `;
 
 export default Secondarybutton

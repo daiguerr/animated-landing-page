@@ -25,11 +25,25 @@ display: flex;
 justify-content: space-between;
 min-height: 10vh;
 align-items: center;
+.logo{
+  @media screen and (max-width: 600px){
+                display:none;
+            }
+}
 
 ul{
   display:flex;
   justify-content:space-between;
   width: 40%;
+  @media screen and (max-width: 700px){
+                font-size: 85%;
+                justify-content:space-between;
+            }
+}
+a{
+  @media screen and (max-width: 700px){
+                margin-right:15px;
+            }
 }
 `;
 

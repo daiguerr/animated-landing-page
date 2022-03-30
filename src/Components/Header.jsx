@@ -24,6 +24,15 @@ background-size: cover;
 background-position-y:100%;
 .header-content{
     padding: 0 10rem;
+    @media screen and (max-width: 1347px){
+            padding: 5rem 14rem;
+        }
+        @media screen and (max-width: 1186px){
+            padding: 5rem 8rem;
+        }
+        @media screen and (max-width: 990px){
+            padding: 5rem 4rem;
+        }
 }
 `;
 

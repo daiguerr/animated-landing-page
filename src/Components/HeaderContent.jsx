@@ -30,21 +30,37 @@ const HeaderContentStyled = styled.div`
 display:grid;
 grid-template-columns: repeat(2,1fr);
 padding-top:3rem;
+@media screen and (max-width: 700px){
+        grid-template-columns: repeat(1, 1fr);
+    }
 .left-content{
 display:flex;
 align-items:center;
 padding-right: 4rem;
+@media screen and (max-width: 700px){
+                text-align: center;
+                margin: 0 0 10px 30px;
+            }
 }
 h1{
     font-size:4rem;
     font-weight: 600;
+    @media screen and (max-width: 700px){
+                font-size: 2rem;
+            }
 }
 .white{
+    color:white;
     padding: 1.4rem 0;
     line-height: 1.8rem;
+    @media screen and (max-width: 700px){
+                font-size: 1rem;
+            }
 }
 .right-content{
     position: relative; 
+    display:flex;
+    justify-content:center;
 }
 .phone{
     width:80%;
@@ -54,17 +70,26 @@ h1{
     bottom: 20%;
     right:0;
     left: auto;
+    @media screen and (max-width: 700px){
+                width: 20%;
+            }
 }
 .message1{
     position:absolute;
     top: 0;
     right:0;
     left: auto;
+    @media screen and (max-width: 700px){
+                width: 20%;
+            }
 }
 .message2{
     position:absolute;
     bottom: 15%;
     left:0;
+    @media screen and (max-width: 700px){
+                width: 20%;
+            }
 }
 `;
 export default HeaderContent
